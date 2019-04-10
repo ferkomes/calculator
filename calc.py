@@ -1,14 +1,14 @@
 from flask import Flask
 import sys
 
-app = Flask(__name__)
+calc = Flask(__name__)
 
-@app.route('/')
+@calc.route('/')
 def index():
     return "Hello, World!"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    calc.run(debug=True)
 
 
 
