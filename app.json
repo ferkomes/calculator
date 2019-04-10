@@ -3,7 +3,7 @@
 
 	"image": "heroku/python",
 	"scripts": {
-		"test": "python calc.py"
+		"test": "python app.py"
 	}
 
 }
