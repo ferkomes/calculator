@@ -12,6 +12,7 @@ def input_request():
 @app.route('/', methods=['POST'])
 def result():
     result = int(request.form['FirstNum']) + int(request.form['SecondNum'])
+
     return render_template("result.html", result=result)
 
 if __name__ == '__main__':
