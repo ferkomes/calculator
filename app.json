@@ -1,9 +1,0 @@
-{
-	"name": "Calculator application",
-
-	"image": "heroku/python",
-	"scripts": {
-		"test": "python app.py"
-	}
-
-}
