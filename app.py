@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request
-n = request.args.get("n")
 import os
 import sys
 
