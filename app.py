@@ -6,13 +6,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def input_request():
-    return render_template('input_request.html')
+    return rendered = flask.render_template('input_request.html')
 
 @app.route('/result',methods = ['POST', 'GET'])
 def result():
    if request.method == 'POST':
       result = request.form
-      return render_template("result.html",result = result)
+      return rendered = flask.render_template("result.html",result = result)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 3000)), debug=True)
