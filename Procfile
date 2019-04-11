@@ -1,1 +1,1 @@
-web: python input_request.html
+web: python app.py
